@@ -13,6 +13,6 @@ for (var i = 0; i < 6; i++){
 
     if(resto != 0) {
         array.push[numero_utente];
-        console.log(numero_utente);
+        console.log("I numeri dispari da te inseriti sono: " + numero_utente);
     }
 }

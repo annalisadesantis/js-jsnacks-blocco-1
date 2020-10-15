@@ -19,4 +19,4 @@ for (var i = 0; i < 5; i++){
 }
 
 // Il programma stampa la somma di tutti i numeri inseriti.
-console.log(somma);
+console.log("La somma dei tuoi numeri inseriti è " + somma);
