@@ -6,10 +6,8 @@
 var numero_utente = parseInt(prompt("Inserisci un numero"));
 
 
+for (var i = 1; i <= numero_utente; i++){
 
-
-for (var i = 0; i < 3; i++){
-
-    var cubo = Math.pow(numero_utente, 3);
+    var cubo = Math.pow(i, 3);
     console.log(cubo);
 }
