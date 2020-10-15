@@ -1,20 +1,22 @@
 // Il software deve chiedere per 5 volte all’utente di inserire un
 // numero.
 
-var numero_utente = parseInt(prompt("Inserisci il primo numero"));
+var somma = 0;
 
-var numero_utente = parseInt(prompt("Inserisci il secondo numero"));
+for (var i = 0; i < 5; i++){
+    var numero_utente = parseInt(prompt("Inserisci il un numero"));
+    // console.log(numero_utente);
+    somma = numero_utente + somma;
 
-var numero_utente = parseInt(prompt("Inserisci il terzo numero"));
+    //somma = 1 + 0
+    // 1 = 4 + 1 = 5
+    // 5 = 5 + 5 = 10
+    // 10 = 3 + 10 = 13
+    // 13 = 2 + 13 = 15
+    // 15 ....
 
-var numero_utente = parseInt(prompt("Inserisci il quarto numero"));
-
-var numero_utente = parseInt(prompt("Inserisci il quinto numero"));
-
+    //somma += numero_utente; è la stessa cosa che scrivere: somma = numero_utente + somma;
+}
 
 // Il programma stampa la somma di tutti i numeri inseriti.
-
-for (var i = 0; i < numero_utente; i++){
-
-    var somma = (0 + numero_utente);
-}
+console.log(somma);
