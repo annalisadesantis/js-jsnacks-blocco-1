@@ -12,7 +12,10 @@ for (var i = 0; i < 6; i++){
     var resto = numero_utente % 2;
 
     if(resto != 0) {
-        array.push[numero_utente];
+        array.push(numero_utente);
         console.log("I numeri dispari da te inseriti sono: " + numero_utente);
     }
 }
+
+// Per visulizzarli tutti nell'array
+console.log(array);
