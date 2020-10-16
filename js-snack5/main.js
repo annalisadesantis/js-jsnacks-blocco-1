@@ -9,6 +9,7 @@ var numero_utente = parseInt(prompt("Inserisci un numero"));
 for (var i = 1; i <= numero_utente; i++){
 
     // metto la i xkè è lei che mi fa scorrere tutti i numeri
+    // Calcolo la potenza di i che va da 1 fino al numero digitato dall'utente
     var cubo = Math.pow(i, 3);
     console.log("Il numero " + i + " al cubo è " + cubo);
 }
